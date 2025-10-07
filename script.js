@@ -1,6 +1,9 @@
 fetch('date.json')
   .then(response => response.json())
   .then(data => {
+    // 日付で降順ソート
+    data.sort((a, b) => new Date(b.date) - new Date(a.date));
+
     const tbody = document.querySelector('#data-table tbody');
     const labels = [];
     const rateData = [];
@@ -11,16 +14,18 @@ fetch('date.json')
         <td>${entry.date}</td>
         <td>${entry.startTime}</td>
         <td>${entry.startRate}</td>
-        <td>${entry.endRate}</td>
-        <td>${entry.riseRate}</td>
+        <td>${entry.endRate}</td><td>${entry.riseRate}</td>
         <td>${entry.winRate}</td>
         <td>${entry.win}</td>
         <td>${entry.lose}</td>
-        <td>${entry.draw}</td>
-        <td>${entry.match}</td>
+        <td>${entry.draw}</td><td>${entry.match}</td>
       `;
       tbody.appendChild(row);
+    });
 
+    // グラフは昇順で表示したいので、元の順に戻す
+    const sortedForGraph = [...data].sort((a, b) => new Date(a.date) - new Date(b.date));
+    sortedForGraph.forEach(entry => {
       labels.push(entry.date);
       rateData.push(entry.endRate);
     });
