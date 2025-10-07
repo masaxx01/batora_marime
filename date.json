@@ -1,19 +1,19 @@
 [
   {
-    "date": "2025-10-01",
-    "startTime": "10:00",
-    "startRate": 1500,
-    "endRate": 1520,
+    "date": "2025-10-05",
+    "startTime": "15:53",
+    "startRate": "4819",
+    "endRate": "4653",
     "winRate": "60%",
     "win": 3,
     "lose": 2,
     "draw": 0
   },
   {
-    "date": "2025-10-02",
-    "startTime": "11:00",
-    "startRate": 1520,
-    "endRate": 1535,
+    "date": "2025-10-07",
+    "startTime": "23:15",
+    "startRate": "4653",
+    "endRate": "4615",
     "winRate": "70%",
     "win": 4,
     "lose": 1,
