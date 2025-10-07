@@ -17,6 +17,7 @@ fetch('date.json')
         <td>${entry.win}</td>
         <td>${entry.lose}</td>
         <td>${entry.draw}</td>
+        <td>${entry.match}</td>
       `;
       tbody.appendChild(row);
 
