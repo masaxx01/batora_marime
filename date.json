@@ -16,7 +16,7 @@
     "startRate": "5064",
     "endRate": "5029",
     "riseRate": "-35",
-    "winRate": "16%",
+    "winRate": "16.2%",
     "win": 6,
     "lose": 28,
     "draw": 3
@@ -27,7 +27,7 @@
     "startRate": "5029",
     "endRate": "5060",
     "riseRate": "+31",
-    "winRate": "24%",
+    "winRate": "23.5%",
     "win": 8,
     "lose": 25,
     "draw": 1
@@ -38,7 +38,7 @@
     "startRate": "5060",
     "endRate": "5036",
     "riseRate": "-24",
-    "winRate": "19%",
+    "winRate": "19.4%",
     "win": 6,
     "lose": 24,
     "draw": 1
@@ -49,7 +49,7 @@
     "startRate": "5036",
     "endRate": "4975",
     "riseRate": "-61",
-    "winRate": "14%",
+    "winRate": "14.3%",
     "win": 5,
     "lose": 24,
     "draw": 6
@@ -60,7 +60,7 @@
     "startRate": "4975",
     "endRate": "4919",
     "riseRate": "-56",
-    "winRate": "15%",
+    "winRate": "14.7%",
     "win": 5,
     "lose": 27,
     "draw": 2
@@ -71,7 +71,7 @@
     "startRate": "4919",
     "endRate": "4866",
     "riseRate": "-53",
-    "winRate": "17%",
+    "winRate": "16.7%",
     "win": 9,
     "lose": 44,
     "draw": 1
@@ -82,7 +82,7 @@
     "startRate": "4866",
     "endRate": "4819",
     "riseRate": "-47",
-    "winRate": "18%",
+    "winRate": "18.1%",
     "win": 17,
     "lose": 73,
     "draw": 4
