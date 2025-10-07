@@ -34,7 +34,7 @@
     "startTime": "20:22",
     "startRate": "5060",
     "endRate": "5036",
-    "winRate": "60%",
+    "winRate": "19%",
     "win": 6,
     "lose": 24,
     "draw": 1
@@ -44,10 +44,10 @@
     "startTime": "17:14",
     "startRate": "5036",
     "endRate": "4975",
-    "winRate": "60%",
-    "win": 3,
-    "lose": 2,
-    "draw": 0
+    "winRate": "14%",
+    "win": 5,
+    "lose": 24,
+    "draw": 6
   }, 
   {
     "date": "2025-09-25",
