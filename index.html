@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>レート公開ページ</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>レート公開</h1>
+    <div id="table-container" class="fade-in">
+      <table id="data-table">
+        <thead>
+          <tr>
+            <th>日付</th>
+            <th>開始時刻</th>
+            <th>開始時レート</th>
+            <th>終了時レート</th>
+            <th>勝率</th>
+            <th>勝ち</th>
+            <th>負け</th>
+            <th>引き分け</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
 
+    <div id="chart-container" class="fade-in">
+      <canvas id="rateChart"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+🎨 style.css
+css
+body {
+  background-color: #fff8f0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #ff8c42;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 140, 66, 0.2);
+}
+
+th, td {
+  border: 1px solid #ffd8b0;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #ffe5cc;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1.5s ease forwards;
+}
+
+#chart-container {
+  margin-top: 40px;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
