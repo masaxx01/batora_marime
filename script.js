@@ -9,19 +9,51 @@ fetch('date.json')
     const rateData = [];
 
     data.forEach(entry => {
-      const row = document.createElement('tr');
-      row.innerHTML = `
-        <td>${entry.date}</td>
-        <td>${entry.startTime}</td>
-        <td>${entry.startRate}</td>
-        <td>${entry.endRate}</td><td>${entry.riseRate}</td>
-        <td>${entry.winRate}</td>
-        <td>${entry.win}</td>
-        <td>${entry.lose}</td>
-        <td>${entry.draw}</td><td>${entry.match}</td>
-      `;
-      tbody.appendChild(row);
-    });
+  const row = document.createElement('tr');
+
+  // 通常のセル
+  row.innerHTML = `
+    <td>${entry.date}</td>
+    <td>${entry.startTime}</td>
+    <td>${entry.startRate}</td>
+    <td>${entry.endRate}</td><td>${entry.riseRate}</td>
+  `;
+
+  // 勝率セル（色付き）
+  const winRateCell = document.createElement('td');
+  winRateCell.textContent = entry.winRate;
+
+  // 数値だけ取り出して判定（%を除く）
+  const winRateValue = parseFloat(entry.winRate.replace('%', ''));
+
+  if (winRateValue > 0) {
+    winRateCell.style.color = 'yellowgreen';
+  } else if (winRateValue < 0) {
+    winRateCell.style.color = 'red';
+  }
+
+  // 残りのセル
+  const winCell = document.createElement('td');
+  winCell.textContent = entry.win;
+
+  const loseCell = document.createElement('td');
+  loseCell.textContent = entry.lose;
+
+  const drawCell = document.createElement('td');
+  drawCell.textContent = entry.draw;
+
+const matchCell = document.createElement('td');
+  matchCell.textContent = entry.match;
+
+  // セルを行に追加
+  row.appendChild(winRateCell);
+  row.appendChild(winCell);
+  row.appendChild(loseCell);
+  row.appendChild(drawCell);row.appendChild(matchCell); 
+
+  // 行を表に追加
+  tbody.appendChild(row);
+});
 
     // グラフは昇順で表示したいので、元の順に戻す
     const sortedForGraph = [...data].sort((a, b) => new Date(a.date) - new Date(b.date));
