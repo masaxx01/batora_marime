@@ -8,7 +8,8 @@
     "winRate": "0%",
     "win": 0,
     "lose": 3,
-    "draw": 0
+    "draw": 0,
+    "match": 3
   }, 
   {
     "date": "2025-09-09",
@@ -19,7 +20,8 @@
     "winRate": "16.2%",
     "win": 6,
     "lose": 28,
-    "draw": 3
+    "draw": 3,
+    "match": 37
   },
   {
     "date": "2025-09-11",
@@ -30,7 +32,8 @@
     "winRate": "23.5%",
     "win": 8,
     "lose": 25,
-    "draw": 1
+    "draw": 1,
+    "match": 34
   }, 
   {
     "date": "2025-09-12",
@@ -41,7 +44,8 @@
     "winRate": "19.4%",
     "win": 6,
     "lose": 24,
-    "draw": 1
+    "draw": 1,
+    "match": 31
   }, 
   {
     "date": "2025-09-13",
@@ -52,7 +56,8 @@
     "winRate": "14.3%",
     "win": 5,
     "lose": 24,
-    "draw": 6
+    "draw": 6,
+    "match": 35
   }, 
   {
     "date": "2025-09-25",
@@ -63,7 +68,8 @@
     "winRate": "14.7%",
     "win": 5,
     "lose": 27,
-    "draw": 2
+    "draw": 2,
+    "match": 34
   }, 
   {
     "date": "2025-10-03",
@@ -74,7 +80,8 @@
     "winRate": "16.7%",
     "win": 9,
     "lose": 44,
-    "draw": 1
+    "draw": 1,
+    "match": 54
   }, 
   {
     "date": "2025-10-04",
@@ -85,7 +92,8 @@
     "winRate": "18.1%",
     "win": 17,
     "lose": 73,
-    "draw": 4
+    "draw": 4,
+    "match": 94
   },
   {
     "date": "2025-10-05",
@@ -96,7 +104,8 @@
     "winRate": "13.5%",
     "win": 15,
     "lose": 90,
-    "draw": 6
+    "draw": 6,
+    "match": 111
   },
   {
     "date": "2025-10-07",
