@@ -12,6 +12,7 @@ fetch('date.json')
         <td>${entry.startTime}</td>
         <td>${entry.startRate}</td>
         <td>${entry.endRate}</td>
+        <td>${entry.riseRate}</td>
         <td>${entry.winRate}</td>
         <td>${entry.win}</td>
         <td>${entry.lose}</td>
