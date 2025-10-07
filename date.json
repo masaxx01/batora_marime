@@ -60,10 +60,10 @@
     "startRate": "4975",
     "endRate": "4919",
     "riseRate": "-56",
-    "winRate": "60%",
-    "win": 3,
-    "lose": 2,
-    "draw": 0
+    "winRate": "15%",
+    "win": 5,
+    "lose": 27,
+    "draw": 2
   }, 
   {
     "date": "2025-10-03",
