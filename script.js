@@ -16,7 +16,8 @@ fetch('date.json')
     <td>${entry.date}</td>
     <td>${entry.startTime}</td>
     <td>${entry.startRate}</td>
-    <td>${entry.endRate}</td><td>${entry.riseRate}</td>
+    <td>${entry.endRate}</td>
+    <td>${entry.riseRate}</td>
   `;
 
   // 勝率セル（色付き）
