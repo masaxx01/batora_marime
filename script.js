@@ -31,7 +31,7 @@ fetch('date.json')
       data: {
         labels: labels,
         datasets: [{
-          label: '終了時レート',
+          label: 'レート',
           data: rateData,
           borderColor: '#ff8c42',
           backgroundColor: 'rgba(255, 140, 66, 0.2)',
@@ -51,7 +51,7 @@ fetch('date.json')
           y: {
             title: {
               display: true,
-              text: '終了時レート'
+              text: 'レート'
             }
           }
         }
