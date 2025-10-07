@@ -82,10 +82,10 @@
     "startRate": "4866",
     "endRate": "4819",
     "riseRate": "-47",
-    "winRate": "60%",
-    "win": 3,
-    "lose": 2,
-    "draw": 0
+    "winRate": "18%",
+    "win": 17,
+    "lose": 73,
+    "draw": 4
   },
   {
     "date": "2025-10-05",
