@@ -1,1 +1,52 @@
+body {
+  background-color: #fff8f0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
 
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #ff8c42;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 140, 66, 0.2);
+}
+
+th, td {
+  border: 1px solid #ffd8b0;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #ffe5cc;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1.5s ease forwards;
+}
+
+#chart-container {
+  margin-top: 40px;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
