@@ -35,9 +35,9 @@
     "startRate": "5060",
     "endRate": "5036",
     "winRate": "60%",
-    "win": 3,
-    "lose": 2,
-    "draw": 0
+    "win": 6,
+    "lose": 24,
+    "draw": 1
   }, 
   {
     "date": "2025-09-13",
