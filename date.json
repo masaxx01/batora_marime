@@ -1,4 +1,84 @@
 [
+   {
+    "date": "2025-08-19",
+    "startTime": "15:53",
+    "startRate": "5081",
+    "endRate": "5064",
+    "winRate": "0%",
+    "win": 0,
+    "lose": 3,
+    "draw": 0
+  }, 
+  {
+    "date": "2025-09-09",
+    "startTime": "23:48",
+    "startRate": "5064",
+    "endRate": "5029",
+    "winRate": "60%",
+    "win": 3,
+    "lose": 2,
+    "draw": 0
+  },
+  {
+    "date": "2025-09-11",
+    "startTime": "18:10",
+    "startRate": "5029",
+    "endRate": "5060",
+    "winRate": "60%",
+    "win": 3,
+    "lose": 2,
+    "draw": 0
+  }, 
+  {
+    "date": "2025-09-12",
+    "startTime": "20:22",
+    "startRate": "5060",
+    "endRate": "5036",
+    "winRate": "60%",
+    "win": 3,
+    "lose": 2,
+    "draw": 0
+  }, 
+  {
+    "date": "2025-09-13",
+    "startTime": "17:14",
+    "startRate": "5036",
+    "endRate": "4975",
+    "winRate": "60%",
+    "win": 3,
+    "lose": 2,
+    "draw": 0
+  }, 
+  {
+    "date": "2025-09-25",
+    "startTime": "19:15",
+    "startRate": "4975",
+    "endRate": "4919",
+    "winRate": "60%",
+    "win": 3,
+    "lose": 2,
+    "draw": 0
+  }, 
+  {
+    "date": "2025-10-03",
+    "startTime": "22:35",
+    "startRate": "4919",
+    "endRate": "4866",
+    "winRate": "60%",
+    "win": 3,
+    "lose": 2,
+    "draw": 0
+  }, 
+  {
+    "date": "2025-10-04",
+    "startTime": "20:23",
+    "startRate": "4866",
+    "endRate": "4819",
+    "winRate": "60%",
+    "win": 3,
+    "lose": 2,
+    "draw": 0
+  },
   {
     "date": "2025-10-05",
     "startTime": "15:53",
