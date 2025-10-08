@@ -13,7 +13,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #ff8c42;
+  color: #233287;
 }
 
 table {
@@ -25,7 +25,7 @@ table {
 }
 
 th, td {
-  border: 1px solid #ffd8b0;
+  border: 1px solid #b0bbff;
   padding: 10px;
   text-align: center;
 }
