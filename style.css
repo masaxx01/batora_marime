@@ -1,5 +1,5 @@
 body {
-  background-color: #fff2b2;
+  background-color: #f9ff52;
   font-family: 'Arial', sans-serif;
   color: #333;
   margin: 0;
@@ -13,7 +13,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #233287;
+  color: #004da6;
 }
 
 table {
@@ -25,13 +25,13 @@ table {
 }
 
 th, td {
-  border: 1px solid #b0bbff;
+  border: 1px solid #004da6;
   padding: 10px;
   text-align: center;
 }
 
 th {
-  background-color: #b0bbff;
+  background-color: #004da6;
 }
 
 .fade-in {
