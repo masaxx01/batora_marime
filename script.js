@@ -46,6 +46,7 @@ fetch('date.json')
   matchCell.textContent = entry.match;
 
   // セルを行に追加
+  row.appendChild(riseRateCell);
   row.appendChild(winRateCell);
   row.appendChild(winCell);
   row.appendChild(loseCell);
