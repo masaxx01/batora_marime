@@ -73,7 +73,7 @@ fetch('date.json')
         datasets: [{
           label: 'レート',
           data: rateData,
-          borderColor: '#ff8c42',
+          borderColor: '#233287',
           backgroundColor: 'rgba(255, 140, 66, 0.2)',
           fill: true,
           tension: 0.3
