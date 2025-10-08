@@ -17,23 +17,22 @@ fetch('date.json')
     <td>${entry.startTime}</td>
     <td>${entry.startRate}</td>
     <td>${entry.endRate}</td>
-    <td>${entry.riseRate}</td>
   `;
 
-  // 勝率セル（色付き）
-  const winRateCell = document.createElement('td');
-  winRateCell.textContent = entry.winRate;
+  // 「勝ち」セルだけ条件付きで色変更
+  const riseRateCell = document.createElement('td');
+  riseRateCell.textContent = entry.riseRate;
 
-  // 数値だけ取り出して判定（%を除く）
-  const winRateValue = parseFloat(entry.winRate.replace('%', ''));
-
-  if (winRateValue > 0) {
-    winRateCell.style.color = 'yellowgreen';
-  } else if (winRateValue < 0) {
-    winRateCell.style.color = 'red';
+  if (entry.riseRate > 0) {
+    riseRateCell.style.color = 'yellowgreen';
+  } else if (entry.riseRate < 0) {
+    riseRateCell.style.color = 'red';
   }
 
   // 残りのセル
+  const winRateCell = document.createElement('td');
+  winRateCell.textContent = entry.winRate;
+
   const winCell = document.createElement('td');
   winCell.textContent = entry.win;
 
@@ -43,18 +42,20 @@ fetch('date.json')
   const drawCell = document.createElement('td');
   drawCell.textContent = entry.draw;
 
-const matchCell = document.createElement('td');
+  const matchCell = document.createElement('td');
   matchCell.textContent = entry.match;
 
   // セルを行に追加
   row.appendChild(winRateCell);
   row.appendChild(winCell);
   row.appendChild(loseCell);
-  row.appendChild(drawCell);row.appendChild(matchCell); 
+  row.appendChild(drawCell);
+  row.appendChild(matchCell); 
 
   // 行を表に追加
   tbody.appendChild(row);
 });
+    
 
     // グラフは昇順で表示したいので、元の順に戻す
     const sortedForGraph = [...data].sort((a, b) => new Date(a.date) - new Date(b.date));
