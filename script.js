@@ -24,7 +24,7 @@ fetch('date.json')
   riseRateCell.textContent = entry.riseRate;
 
   if (entry.riseRate > 0) {
-    riseRateCell.style.color = 'yellowgreen';
+    riseRateCell.style.color = '#23954B';
   } else if (entry.riseRate < 0) {
     riseRateCell.style.color = 'red';
   }
