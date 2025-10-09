@@ -26,7 +26,7 @@ fetch('date.json')
   if (entry.riseRate > 0) {
     riseRateCell.style.color = '#23954B';
   } else if (entry.riseRate < 0) {
-    riseRateCell.style.color = 'red';
+    riseRateCell.style.color = '#C62F2F';
   }
 
   // 残りのセル
