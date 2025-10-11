@@ -130,5 +130,17 @@
     "lose": 79,
     "draw": 11,
     "match": 124
+  }, 
+  {
+    "date": "2025-10-10",
+    "startTime": "19:10",
+    "startRate": "4887",
+    "endRate": "4929",
+    "riseRate": "+42",
+    "winRate": "23.0%",
+    "win": 34,
+    "lose": 108,
+    "draw": 6,
+    "match": 148
   }
 ]
