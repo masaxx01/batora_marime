@@ -21,16 +21,16 @@ fetch('date.json')
   row.appendChild(toggleCell);
       
   // 通常のセル
-  row.innerHTML = `
-    <td>${entry.date}</td>
-    <td>${entry.startTime}</td>
-    <td>${entry.shiai}</td>
-    <td>${entry.winRate}</td>
-    <td>${entry.win}</td>
-    <td>${entry.lose}</td>
-    <td>${entry.draw}</td>
-    <td>${entry.startRate}</td>
-  `;
+  const cells = [
+    entry.date,
+    entry.startTime,
+    entry.shiai,
+    entry.winRate,
+    entry.win,
+    entry.lose,
+    entry.draw,
+    entry.startRate
+  ];
 
   // 「勝ち」セルだけ条件付きで色変更
   const riseRateCell = document.createElement('td');
