@@ -10,6 +10,11 @@
     "lose": 3,
     "draw": 0,
     "match": 3
+      "matches": [
+      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
+      { "id": 2, "result": "負け", "opponent": "PlayerB" },
+      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+    ]
   }, 
   {
     "date": "2025-09-09",
@@ -22,6 +27,11 @@
     "lose": 28,
     "draw": 3,
     "match": 37
+     "matches": [
+      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
+      { "id": 2, "result": "負け", "opponent": "PlayerB" },
+      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+    ]
   },
   {
     "date": "2025-09-11",
@@ -34,6 +44,11 @@
     "lose": 25,
     "draw": 1,
     "match": 34
+     "matches": [
+      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
+      { "id": 2, "result": "負け", "opponent": "PlayerB" },
+      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+    ]
   }, 
   {
     "date": "2025-09-12",
@@ -46,6 +61,11 @@
     "lose": 24,
     "draw": 1,
     "match": 31
+     "matches": [
+      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
+      { "id": 2, "result": "負け", "opponent": "PlayerB" },
+      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+    ]
   }, 
   {
     "date": "2025-09-13",
@@ -58,6 +78,11 @@
     "lose": 24,
     "draw": 6,
     "match": 35
+     "matches": [
+      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
+      { "id": 2, "result": "負け", "opponent": "PlayerB" },
+      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+    ]
   }, 
   {
     "date": "2025-09-25",
@@ -70,6 +95,11 @@
     "lose": 27,
     "draw": 2,
     "match": 34
+     "matches": [
+      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
+      { "id": 2, "result": "負け", "opponent": "PlayerB" },
+      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+    ]
   }, 
   {
     "date": "2025-10-03",
@@ -82,6 +112,11 @@
     "lose": 44,
     "draw": 1,
     "match": 54
+     "matches": [
+      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
+      { "id": 2, "result": "負け", "opponent": "PlayerB" },
+      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+    ]
   }, 
   {
     "date": "2025-10-04",
@@ -94,6 +129,11 @@
     "lose": 73,
     "draw": 4,
     "match": 94
+     "matches": [
+      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
+      { "id": 2, "result": "負け", "opponent": "PlayerB" },
+      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+    ]
   },
   {
     "date": "2025-10-05",
@@ -106,6 +146,11 @@
     "lose": 90,
     "draw": 6,
     "match": 111
+     "matches": [
+      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
+      { "id": 2, "result": "負け", "opponent": "PlayerB" },
+      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+    ]
   },
   {
     "date": "2025-10-07",
@@ -118,6 +163,11 @@
     "lose": 42,
     "draw": 4,
     "match": 54
+     "matches": [
+      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
+      { "id": 2, "result": "負け", "opponent": "PlayerB" },
+      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+    ]
   },
   {
     "date": "2025-10-09",
@@ -130,6 +180,11 @@
     "lose": 79,
     "draw": 11,
     "match": 124
+     "matches": [
+      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
+      { "id": 2, "result": "負け", "opponent": "PlayerB" },
+      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+    ]
   }, 
   {
     "date": "2025-10-10",
@@ -142,6 +197,11 @@
     "lose": 108,
     "draw": 6,
     "match": 148
+     "matches": [
+      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
+      { "id": 2, "result": "負け", "opponent": "PlayerB" },
+      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+    ]
   },
   {
     "date": "2025-10-12",
@@ -154,5 +214,10 @@
     "lose": 34,
     "draw": 3,
     "match": 45
+     "matches": [
+      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
+      { "id": 2, "result": "負け", "opponent": "PlayerB" },
+      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+    ]
   }
 ]
