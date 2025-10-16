@@ -31,9 +31,12 @@
     "draw": 3,
     "shiai": 37,
     "matches": [
-      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
-      { "id": 2, "result": "負け", "opponent": "PlayerB" },
-      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+      { "id": "バトコ", "result": "勝ち", "opponent": "PlayerA" },
+      { "id": "初代", "result": "負け", "opponent": "PlayerB" },
+      { "id": "３", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "WORLD", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "U", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "3DW", "result": "勝ち", "opponent": "PlayerC" }
     ]
   },
   {
@@ -48,9 +51,12 @@
     "draw": 1,
     "shiai": 34,
     "matches": [
-      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
-      { "id": 2, "result": "負け", "opponent": "PlayerB" },
-      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+      { "id": "バトコ", "result": "勝ち", "opponent": "PlayerA" },
+      { "id": "初代", "result": "負け", "opponent": "PlayerB" },
+      { "id": "３", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "WORLD", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "U", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "3DW", "result": "勝ち", "opponent": "PlayerC" }
     ]
   }, 
   {
@@ -65,9 +71,12 @@
     "draw": 1,
     "shiai": 31,
     "matches": [
-      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
-      { "id": 2, "result": "負け", "opponent": "PlayerB" },
-      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+      { "id": "バトコ", "result": "勝ち", "opponent": "PlayerA" },
+      { "id": "初代", "result": "負け", "opponent": "PlayerB" },
+      { "id": "３", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "WORLD", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "U", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "3DW", "result": "勝ち", "opponent": "PlayerC" }
     ]
   }, 
   {
@@ -82,9 +91,12 @@
     "draw": 6,
     "shiai": 35,
     "matches": [
-      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
-      { "id": 2, "result": "負け", "opponent": "PlayerB" },
-      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+      { "id": "バトコ", "result": "勝ち", "opponent": "PlayerA" },
+      { "id": "初代", "result": "負け", "opponent": "PlayerB" },
+      { "id": "３", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "WORLD", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "U", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "3DW", "result": "勝ち", "opponent": "PlayerC" }
     ]
   }, 
   {
@@ -99,9 +111,12 @@
     "draw": 2,
     "shiai": 34,
     "matches": [
-      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
-      { "id": 2, "result": "負け", "opponent": "PlayerB" },
-      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+      { "id": "バトコ", "result": "勝ち", "opponent": "PlayerA" },
+      { "id": "初代", "result": "負け", "opponent": "PlayerB" },
+      { "id": "３", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "WORLD", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "U", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "3DW", "result": "勝ち", "opponent": "PlayerC" }
     ]
   }, 
   {
@@ -116,9 +131,12 @@
     "draw": 1,
     "shiai": 54,
     "matches": [
-      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
-      { "id": 2, "result": "負け", "opponent": "PlayerB" },
-      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+      { "id": "バトコ", "result": "勝ち", "opponent": "PlayerA" },
+      { "id": "初代", "result": "負け", "opponent": "PlayerB" },
+      { "id": "３", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "WORLD", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "U", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "3DW", "result": "勝ち", "opponent": "PlayerC" }
     ]
   }, 
   {
@@ -133,9 +151,12 @@
     "draw": 4,
     "shiai": 94,
     "matches": [
-      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
-      { "id": 2, "result": "負け", "opponent": "PlayerB" },
-      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+      { "id": "バトコ", "result": "勝ち", "opponent": "PlayerA" },
+      { "id": "初代", "result": "負け", "opponent": "PlayerB" },
+      { "id": "３", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "WORLD", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "U", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "3DW", "result": "勝ち", "opponent": "PlayerC" }
     ]
   },
   {
@@ -150,9 +171,12 @@
     "draw": 6,
     "shiai": 111,
     "matches": [
-      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
-      { "id": 2, "result": "負け", "opponent": "PlayerB" },
-      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+      { "id": "バトコ", "result": "勝ち", "opponent": "PlayerA" },
+      { "id": "初代", "result": "負け", "opponent": "PlayerB" },
+      { "id": "３", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "WORLD", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "U", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "3DW", "result": "勝ち", "opponent": "PlayerC" }
     ]
   },
   {
@@ -167,9 +191,12 @@
     "draw": 4,
     "shiai": 54,
     "matches": [
-      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
-      { "id": 2, "result": "負け", "opponent": "PlayerB" },
-      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+      { "id": "バトコ", "result": "勝ち", "opponent": "PlayerA" },
+      { "id": "初代", "result": "負け", "opponent": "PlayerB" },
+      { "id": "３", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "WORLD", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "U", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "3DW", "result": "勝ち", "opponent": "PlayerC" }
     ]
   },
   {
@@ -184,9 +211,12 @@
     "draw": 11,
     "shiai": 124,
     "matches": [
-      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
-      { "id": 2, "result": "負け", "opponent": "PlayerB" },
-      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+      { "id": "バトコ", "result": "勝ち", "opponent": "PlayerA" },
+      { "id": "初代", "result": "負け", "opponent": "PlayerB" },
+      { "id": "３", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "WORLD", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "U", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "3DW", "result": "勝ち", "opponent": "PlayerC" }
     ]
   }, 
   {
@@ -201,9 +231,12 @@
     "draw": 6,
     "shiai": 148,
     "matches": [
-      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
-      { "id": 2, "result": "負け", "opponent": "PlayerB" },
-      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+      { "id": "バトコ", "result": "勝ち", "opponent": "PlayerA" },
+      { "id": "初代", "result": "負け", "opponent": "PlayerB" },
+      { "id": "３", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "WORLD", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "U", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "3DW", "result": "勝ち", "opponent": "PlayerC" }
     ]
   },
   {
@@ -218,9 +251,12 @@
     "draw": 3,
     "shiai": 45,
     "matches": [
-      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
-      { "id": 2, "result": "負け", "opponent": "PlayerB" },
-      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+      { "id": "バトコ", "result": "勝ち", "opponent": "PlayerA" },
+      { "id": "初代", "result": "負け", "opponent": "PlayerB" },
+      { "id": "３", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "WORLD", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "U", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "3DW", "result": "勝ち", "opponent": "PlayerC" }
     ]
   }
 ]
