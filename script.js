@@ -43,8 +43,8 @@ fetch('date.json')
   const drawCell = document.createElement('td');
   drawCell.textContent = entry.draw;
 
-  const matchCell = document.createElement('td');
-  matchCell.textContent = entry.match;
+  const shiaiCell = document.createElement('td');
+  shiaiCell.textContent = entry.shiai;
 
   // セルを行に追加
   row.appendChild(riseRateCell);
@@ -52,7 +52,7 @@ fetch('date.json')
   row.appendChild(winCell);
   row.appendChild(loseCell);
   row.appendChild(drawCell);
-  row.appendChild(matchCell); 
+  row.appendChild(shiaiCell); 
 
  // 詳細行（最初は非表示）
   const detailsRow = document.createElement('tr');
