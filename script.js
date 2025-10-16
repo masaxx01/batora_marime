@@ -54,12 +54,12 @@ fetch('date.json')
   row.appendChild(drawCell);
   row.appendChild(matchCell); 
 
- // 詳細行（隠れてる）
+ // 詳細行（最初は非表示）
   const detailsRow = document.createElement('tr');
   detailsRow.classList.add('details-row');
 
   const detailsCell = document.createElement('td');
-  detailsCell.colSpan = 10;
+  detailsCell.colSpan = 8;
   detailsCell.innerHTML = `
     <strong>詳細情報:</strong><br>
     開始レートと終了レートの差: ${entry.endRate - entry.startRate}<br>
@@ -71,7 +71,7 @@ fetch('date.json')
 
   // 行クリックで詳細表示切り替え
   row.addEventListener('click', () => {
-    row.classList.toggle('active');
+    detailsRow.classList.toggle('visible');
   });
 
   tbody.appendChild(row);
