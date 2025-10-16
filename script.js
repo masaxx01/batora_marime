@@ -36,6 +36,7 @@ fetch('date.json')
     const td = document.createElement('td');
     td.textContent = text;
     row.appendChild(td);
+  });
 
   // 「勝ち」セルだけ条件付きで色変更
   const riseRateCell = document.createElement('td');
