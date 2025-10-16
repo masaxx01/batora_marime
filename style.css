@@ -18,8 +18,9 @@ h1 {
 
 table {
   width: 150%;
+  margin: 0 auto;
   border-collapse: collapse;
-  margin-top: 18px;
+  margin-top: 15px;
   background-color: #F1EBDA;
   box-shadow: 0 0 10px rgba(255, 140, 66, 0.2);
 }
