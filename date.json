@@ -9,7 +9,7 @@
     "win": 0,
     "lose": 3,
     "draw": 0,
-    "shiai": 3
+    "shiai": 3,
     "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
@@ -26,7 +26,7 @@
     "win": 6,
     "lose": 28,
     "draw": 3,
-    "shiai": 37
+    "shiai": 37,
     "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
@@ -43,7 +43,7 @@
     "win": 8,
     "lose": 25,
     "draw": 1,
-    "shiai": 34
+    "shiai": 34,
     "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
@@ -60,7 +60,7 @@
     "win": 6,
     "lose": 24,
     "draw": 1,
-    "shiai": 31
+    "shiai": 31,
     "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
@@ -77,7 +77,7 @@
     "win": 5,
     "lose": 24,
     "draw": 6,
-    "shiai": 35
+    "shiai": 35,
     "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
@@ -94,7 +94,7 @@
     "win": 5,
     "lose": 27,
     "draw": 2,
-    "shiai": 34
+    "shiai": 34,
     "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
@@ -111,7 +111,7 @@
     "win": 9,
     "lose": 44,
     "draw": 1,
-    "shiai": 54
+    "shiai": 54,
     "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
@@ -128,7 +128,7 @@
     "win": 17,
     "lose": 73,
     "draw": 4,
-    "shiai": 94
+    "shiai": 94,
     "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
@@ -145,7 +145,7 @@
     "win": 15,
     "lose": 90,
     "draw": 6,
-    "shiai": 111
+    "shiai": 111,
     "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
@@ -162,7 +162,7 @@
     "win": 8,
     "lose": 42,
     "draw": 4,
-    "shiai": 54
+    "shiai": 54,
     "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
@@ -179,7 +179,7 @@
     "win": 34,
     "lose": 79,
     "draw": 11,
-    "shiai": 124
+    "shiai": 124,
     "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
@@ -196,7 +196,7 @@
     "win": 34,
     "lose": 108,
     "draw": 6,
-    "shiai": 148
+    "shiai": 148,
     "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
@@ -213,7 +213,7 @@
     "win": 8,
     "lose": 34,
     "draw": 3,
-    "shiai": 45
+    "shiai": 45,
     "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
