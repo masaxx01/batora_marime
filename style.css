@@ -67,3 +67,22 @@ th {
 .details-row.visible {
   display: table-row;
 }
+
+.sub-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.sub-table th, .sub-table td {
+  border: 1px solid #ffd8b0;
+  padding: 8px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.sub-table th {
+  background-color: #ffe5cc;
+}
