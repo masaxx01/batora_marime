@@ -32,6 +32,11 @@ fetch('date.json')
     entry.startRate
   ];
 
+      cells.forEach(text => {
+    const td = document.createElement('td');
+    td.textContent = text;
+    row.appendChild(td);
+
   // 「勝ち」セルだけ条件付きで色変更
   const riseRateCell = document.createElement('td');
   riseRateCell.textContent = entry.riseRate;
