@@ -16,8 +16,12 @@ fetch('date.json')
   row.innerHTML = `
     <td>${entry.date}</td>
     <td>${entry.startTime}</td>
+    <td>${entry.shiai}</td>
+    <td>${entry.winRate}</td>
+    <td>${entry.win}</td>
+    <td>${entry.lose}</td>
+    <td>${entry.draw}</td>
     <td>${entry.startRate}</td>
-    <td>${entry.endRate}</td>
   `;
 
   // 「勝ち」セルだけ条件付きで色変更
@@ -31,28 +35,12 @@ fetch('date.json')
   }
 
   // 残りのセル
-  const winRateCell = document.createElement('td');
-  winRateCell.textContent = entry.winRate;
-
-  const winCell = document.createElement('td');
-  winCell.textContent = entry.win;
-
-  const loseCell = document.createElement('td');
-  loseCell.textContent = entry.lose;
-
   const drawCell = document.createElement('td');
-  drawCell.textContent = entry.draw;
-
-  const shiaiCell = document.createElement('td');
-  shiaiCell.textContent = entry.shiai;
+  drawCell.textContent = entry.endRate;
 
   // セルを行に追加
   row.appendChild(riseRateCell);
-  row.appendChild(winRateCell);
-  row.appendChild(winCell);
-  row.appendChild(loseCell);
-  row.appendChild(drawCell);
-  row.appendChild(shiaiCell); 
+  row.appendChild(endRateCell);
 
  // 詳細行（最初は非表示）
   const detailsRow = document.createElement('tr');
@@ -66,9 +54,12 @@ let matchTableHTML = `
   <table class="sub-table">
     <thead>
       <tr>
-        <th>試合番号</th>
-        <th>結果</th>
-        <th>対戦相手</th>
+        <th>種目</th>
+        <th>試合数</th>
+        <th>勝率</th>
+        <th>勝ち</th>
+        <th>負け</th>
+        <th>引き分け</th>
       </tr>
     </thead>
     <tbody>
@@ -80,6 +71,9 @@ entry.matches.forEach(match => {
       <td>${match.id}</td>
       <td>${match.result}</td>
       <td>${match.opponent}</td>
+      <td>${match.winopponent}</td>
+      <td>${match.loseopponent}</td>
+      <td>${match.drawopponent}</td>
     </tr>
   `;
 });
