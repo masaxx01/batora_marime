@@ -59,7 +59,7 @@ fetch('date.json')
   detailsRow.classList.add('details-row');
 
   const detailsCell = document.createElement('td');
-  detailsCell.colSpan = 8;
+  detailsCell.colSpan = 10;
   detailsCell.innerHTML = `
     <strong>詳細情報:</strong><br>
     開始レートと終了レートの差: ${entry.endRate - entry.startRate}<br>
