@@ -85,3 +85,14 @@ th {
 .sub-table th {
   background-color: #ffe5cc;
 }
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ff8c42;
+}
+
+.toggle-btn:hover {
+  color: #e67300;
+}
