@@ -64,6 +64,6 @@ th {
   color: #555;
 }
 
-tr.active + .details-row {
+.details-row.visible {
   display: table-row;
 }
