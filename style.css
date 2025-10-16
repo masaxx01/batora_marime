@@ -19,14 +19,14 @@ h1 {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
+  margin-top: 18px;
   background-color: #F1EBDA;
   box-shadow: 0 0 10px rgba(255, 140, 66, 0.2);
 }
 
 th, td {
   border: 1px solid #ffd454;
-  padding: 10px;
+  padding: 8px 12px;
   text-align: center;
 }
 
