@@ -11,9 +11,12 @@
     "draw": 0,
     "shiai": 3,
     "matches": [
-      { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
-      { "id": 2, "result": "負け", "opponent": "PlayerB" },
-      { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
+      { "id": "バトコ", "result": "勝ち", "opponent": "PlayerA" },
+      { "id": "初代", "result": "負け", "opponent": "PlayerB" },
+      { "id": "３", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "WORLD", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "U", "result": "勝ち", "opponent": "PlayerC" },
+      { "id": "3DW", "result": "勝ち", "opponent": "PlayerC" }
     ]
   }, 
   {
