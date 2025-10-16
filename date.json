@@ -10,7 +10,7 @@
     "lose": 3,
     "draw": 0,
     "shiai": 3
-      "matches": [
+    "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
       { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
@@ -27,7 +27,7 @@
     "lose": 28,
     "draw": 3,
     "shiai": 37
-     "matches": [
+    "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
       { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
@@ -44,7 +44,7 @@
     "lose": 25,
     "draw": 1,
     "shiai": 34
-     "matches": [
+    "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
       { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
@@ -61,7 +61,7 @@
     "lose": 24,
     "draw": 1,
     "shiai": 31
-     "matches": [
+    "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
       { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
@@ -78,7 +78,7 @@
     "lose": 24,
     "draw": 6,
     "shiai": 35
-     "matches": [
+    "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
       { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
@@ -95,7 +95,7 @@
     "lose": 27,
     "draw": 2,
     "shiai": 34
-     "matches": [
+    "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
       { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
@@ -112,7 +112,7 @@
     "lose": 44,
     "draw": 1,
     "shiai": 54
-     "matches": [
+    "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
       { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
@@ -129,7 +129,7 @@
     "lose": 73,
     "draw": 4,
     "shiai": 94
-     "matches": [
+    "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
       { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
@@ -146,7 +146,7 @@
     "lose": 90,
     "draw": 6,
     "shiai": 111
-     "matches": [
+    "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
       { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
@@ -163,7 +163,7 @@
     "lose": 42,
     "draw": 4,
     "shiai": 54
-     "matches": [
+    "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
       { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
@@ -180,7 +180,7 @@
     "lose": 79,
     "draw": 11,
     "shiai": 124
-     "matches": [
+    "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
       { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
@@ -197,7 +197,7 @@
     "lose": 108,
     "draw": 6,
     "shiai": 148
-     "matches": [
+    "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
       { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
@@ -214,7 +214,7 @@
     "lose": 34,
     "draw": 3,
     "shiai": 45
-     "matches": [
+    "matches": [
       { "id": 1, "result": "勝ち", "opponent": "PlayerA" },
       { "id": 2, "result": "負け", "opponent": "PlayerB" },
       { "id": 3, "result": "勝ち", "opponent": "PlayerC" }
