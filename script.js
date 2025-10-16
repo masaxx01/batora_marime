@@ -12,6 +12,14 @@ fetch('date.json')
   const row = document.createElement('tr');
       row.classList.add('main-row');
 
+      // 開閉ボタンセル
+  const toggleCell = document.createElement('td');
+  const toggleBtn = document.createElement('button');
+  toggleBtn.textContent = '▶';
+  toggleBtn.classList.add('toggle-btn');
+  toggleCell.appendChild(toggleBtn);
+  row.appendChild(toggleCell);
+      
   // 通常のセル
   row.innerHTML = `
     <td>${entry.date}</td>
@@ -94,9 +102,11 @@ detailsRow.appendChild(detailsCell);
 
 
 
-  // 行クリックで詳細表示切り替え
-  row.addEventListener('click', () => {
+  // ボタンで詳細表示切り替え
+  toggleBtn.addEventListener('click', (e) => {
+    e.stopPropagation(); // 行クリックを防ぐ
     detailsRow.classList.toggle('visible');
+    toggleBtn.textContent = detailsRow.classList.contains('visible') ? '▼' : '▶';
   });
 
   tbody.appendChild(row);
