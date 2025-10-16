@@ -10,6 +10,7 @@ fetch('date.json')
 
     data.forEach(entry => {
   const row = document.createElement('tr');
+      row.classList.add('main-row');
 
   // 通常のセル
   row.innerHTML = `
@@ -53,8 +54,28 @@ fetch('date.json')
   row.appendChild(drawCell);
   row.appendChild(matchCell); 
 
-  // 行を表に追加
+ // 詳細行（隠れてる）
+  const detailsRow = document.createElement('tr');
+  detailsRow.classList.add('details-row');
+
+  const detailsCell = document.createElement('td');
+  detailsCell.colSpan = 8;
+  detailsCell.innerHTML = `
+    <strong>詳細情報:</strong><br>
+    開始レートと終了レートの差: ${entry.endRate - entry.startRate}<br>
+    合計試合数: ${entry.win + entry.lose + entry.draw}<br>
+    コメント: ここに自由なメモを追加できます。
+  `;
+
+  detailsRow.appendChild(detailsCell);
+
+  // 行クリックで詳細表示切り替え
+  row.addEventListener('click', () => {
+    row.classList.toggle('active');
+  });
+
   tbody.appendChild(row);
+  tbody.appendChild(detailsRow);
 });
     
 
