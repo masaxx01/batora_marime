@@ -59,14 +59,10 @@ fetch('date.json')
 detailsRow.classList.add('details-row');
 
 const detailsCell = document.createElement('td');
-detailsCell.colSpan = 8;
+detailsCell.colSpan = 10;
 
-// サブテーブルのHTMLを埋め込む
-detailsCell.innerHTML = `
-  <strong>詳細情報:</strong><br>
-  開始レートと終了レートの差: ${entry.endRate - entry.startRate}<br>
-  合計試合数: ${entry.win + entry.lose + entry.draw}<br><br>
-
+// サブテーブルのHTMLを生成
+let matchTableHTML = `
   <table class="sub-table">
     <thead>
       <tr>
@@ -76,14 +72,32 @@ detailsCell.innerHTML = `
       </tr>
     </thead>
     <tbody>
-      <tr><td>1</td><td>勝ち</td><td>PlayerA</td></tr>
-      <tr><td>2</td><td>負け</td><td>PlayerB</td></tr>
-      <tr><td>3</td><td>引き分け</td><td>PlayerC</td></tr>
+`;
+
+entry.matches.forEach(match => {
+  matchTableHTML += `
+    <tr>
+      <td>${match.id}</td>
+      <td>${match.result}</td>
+      <td>${match.opponent}</td>
+    </tr>
+  `;
+});
+
+matchTableHTML += `
     </tbody>
   </table>
 `;
 
+detailsCell.innerHTML = `
+  <strong>詳細情報:</strong><br>
+  開始レートと終了レートの差: ${entry.endRate - entry.startRate}<br>
+  合計試合数: ${entry.win + entry.lose + entry.draw}<br><br>
+  ${matchTableHTML}
+`;
+
 detailsRow.appendChild(detailsCell);
+
 
 
   // 行クリックで詳細表示切り替え
