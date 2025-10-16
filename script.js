@@ -56,18 +56,35 @@ fetch('date.json')
 
  // 詳細行（最初は非表示）
   const detailsRow = document.createElement('tr');
-  detailsRow.classList.add('details-row');
+detailsRow.classList.add('details-row');
 
-  const detailsCell = document.createElement('td');
-  detailsCell.colSpan = 8;
-  detailsCell.innerHTML = `
-    <strong>詳細情報:</strong><br>
-    開始レートと終了レートの差: ${entry.endRate - entry.startRate}<br>
-    合計試合数: ${entry.win + entry.lose + entry.draw}<br>
-    コメント: ここに自由なメモを追加できます。
-  `;
+const detailsCell = document.createElement('td');
+detailsCell.colSpan = 8;
 
-  detailsRow.appendChild(detailsCell);
+// サブテーブルのHTMLを埋め込む
+detailsCell.innerHTML = `
+  <strong>詳細情報:</strong><br>
+  開始レートと終了レートの差: ${entry.endRate - entry.startRate}<br>
+  合計試合数: ${entry.win + entry.lose + entry.draw}<br><br>
+
+  <table class="sub-table">
+    <thead>
+      <tr>
+        <th>試合番号</th>
+        <th>結果</th>
+        <th>対戦相手</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>勝ち</td><td>PlayerA</td></tr>
+      <tr><td>2</td><td>負け</td><td>PlayerB</td></tr>
+      <tr><td>3</td><td>引き分け</td><td>PlayerC</td></tr>
+    </tbody>
+  </table>
+`;
+
+detailsRow.appendChild(detailsCell);
+
 
   // 行クリックで詳細表示切り替え
   row.addEventListener('click', () => {
