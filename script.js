@@ -55,7 +55,7 @@ fetch('date.json')
 detailsRow.classList.add('details-row');
 
 const detailsCell = document.createElement('td');
-detailsCell.colSpan = 10;
+detailsCell.colSpan = 9;
 
 // サブテーブルのHTMLを生成
 let matchTableHTML = `
