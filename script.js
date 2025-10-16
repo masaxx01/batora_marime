@@ -35,8 +35,8 @@ fetch('date.json')
   }
 
   // 残りのセル
-  const drawCell = document.createElement('td');
-  drawCell.textContent = entry.endRate;
+  const endRateCell = document.createElement('td');
+  endRateCell.textContent = entry.endRate;
 
   // セルを行に追加
   row.appendChild(riseRateCell);
