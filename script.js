@@ -99,6 +99,7 @@ matchTableHTML += `
 
 detailsCell.innerHTML = `
   <strong>詳細情報</strong><br>
+  ${matchTableHTML}
 `;
 
 detailsRow.appendChild(detailsCell);
