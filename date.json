@@ -10,6 +10,7 @@
     "lose": 3,
     "draw": 0,
     "shiai": 3,
+    "note": ".",
     "matches": [
       { "id": "ALL", "result": "3", "opponent": "0.0%", "winopponent": "0", "loseopponent": "3", "drawopponent": "0"},
       { "id": "バトコ", "result": "0", "opponent": "0.0%", "winopponent": "0", "loseopponent": "0", "drawopponent": "0"},
@@ -31,6 +32,7 @@
     "lose": 28,
     "draw": 3,
     "shiai": 37,
+    "note": ".",
     "matches": [
       { "id": "ALL", "result": "37", "opponent": "16.2%", "winopponent": "6", "loseopponent": "28", "drawopponent": "3"},
       { "id": "バトコ", "result": "4", "opponent": "0.0%", "winopponent": "0", "loseopponent": "4", "drawopponent": "0"},
@@ -52,6 +54,7 @@
     "lose": 25,
     "draw": 1,
     "shiai": 34,
+    "note": ".",
     "matches": [
       { "id": "ALL", "result": "34", "opponent": "23.5%", "winopponent": "8", "loseopponent": "25", "drawopponent": "1"},
       { "id": "バトコ", "result": "5", "opponent": "0.0%", "winopponent": "0", "loseopponent": "5", "drawopponent": "0"},
@@ -73,6 +76,7 @@
     "lose": 24,
     "draw": 1,
     "shiai": 31,
+    "note": ".",
     "matches": [
       { "id": "ALL", "result": "34", "opponent": "23.5%", "winopponent": "8", "loseopponent": "25", "drawopponent": "1"},
       { "id": "バトコ", "result": "0", "opponent": "0.0%", "winopponent": "0", "loseopponent": "0", "drawopponent": "0"},
@@ -94,6 +98,7 @@
     "lose": 24,
     "draw": 6,
     "shiai": 35,
+    "note": ".",
     "matches": [
       { "id": "ALL", "result": "34", "opponent": "23.5%", "winopponent": "8", "loseopponent": "25", "drawopponent": "1"},
       { "id": "バトコ", "result": "0", "opponent": "0.0%", "winopponent": "0", "loseopponent": "0", "drawopponent": "0"},
@@ -115,6 +120,7 @@
     "lose": 27,
     "draw": 2,
     "shiai": 34,
+    "note": ".",
     "matches": [
       { "id": "ALL", "result": "34", "opponent": "23.5%", "winopponent": "8", "loseopponent": "25", "drawopponent": "1"},
       { "id": "バトコ", "result": "0", "opponent": "0.0%", "winopponent": "0", "loseopponent": "0", "drawopponent": "0"},
@@ -136,6 +142,7 @@
     "lose": 44,
     "draw": 1,
     "shiai": 54,
+    "note": ".",
     "matches": [
       { "id": "ALL", "result": "34", "opponent": "23.5%", "winopponent": "8", "loseopponent": "25", "drawopponent": "1"},
       { "id": "バトコ", "result": "0", "opponent": "0.0%", "winopponent": "0", "loseopponent": "0", "drawopponent": "0"},
@@ -157,6 +164,7 @@
     "lose": 73,
     "draw": 4,
     "shiai": 94,
+    "note": ".",
     "matches": [
       { "id": "ALL", "result": "34", "opponent": "23.5%", "winopponent": "8", "loseopponent": "25", "drawopponent": "1"},
       { "id": "バトコ", "result": "0", "opponent": "0.0%", "winopponent": "0", "loseopponent": "0", "drawopponent": "0"},
@@ -178,6 +186,7 @@
     "lose": 90,
     "draw": 6,
     "shiai": 111,
+    "note": ".",
     "matches": [
       { "id": "ALL", "result": "34", "opponent": "23.5%", "winopponent": "8", "loseopponent": "25", "drawopponent": "1"},
       { "id": "バトコ", "result": "0", "opponent": "0.0%", "winopponent": "0", "loseopponent": "0", "drawopponent": "0"},
@@ -199,6 +208,7 @@
     "lose": 42,
     "draw": 4,
     "shiai": 54,
+    "note": ".",
     "matches": [
       { "id": "ALL", "result": "34", "opponent": "23.5%", "winopponent": "8", "loseopponent": "25", "drawopponent": "1"},
       { "id": "バトコ", "result": "0", "opponent": "0.0%", "winopponent": "0", "loseopponent": "0", "drawopponent": "0"},
@@ -220,6 +230,7 @@
     "lose": 79,
     "draw": 11,
     "shiai": 124,
+    "note": ".",
     "matches": [
       { "id": "ALL", "result": "34", "opponent": "23.5%", "winopponent": "8", "loseopponent": "25", "drawopponent": "1"},
       { "id": "バトコ", "result": "0", "opponent": "0.0%", "winopponent": "0", "loseopponent": "0", "drawopponent": "0"},
@@ -241,6 +252,7 @@
     "lose": 108,
     "draw": 6,
     "shiai": 148,
+    "note": ".",
     "matches": [
       { "id": "ALL", "result": "34", "opponent": "23.5%", "winopponent": "8", "loseopponent": "25", "drawopponent": "1"},
       { "id": "バトコ", "result": "0", "opponent": "0.0%", "winopponent": "0", "loseopponent": "0", "drawopponent": "0"},
@@ -262,6 +274,7 @@
     "lose": 34,
     "draw": 3,
     "shiai": 45,
+    "note": ".",
     "matches": [
       { "id": "ALL", "result": "34", "opponent": "23.5%", "winopponent": "8", "loseopponent": "25", "drawopponent": "1"},
       { "id": "バトコ", "result": "0", "opponent": "0.0%", "winopponent": "0", "loseopponent": "0", "drawopponent": "0"},
@@ -283,6 +296,7 @@
     "lose": 110,
     "draw": 8,
     "shiai": 152,
+    "note": "全体勝率22.4％と好成績だが、ゴールをしゃぶれない仕様になっているマリオWORLDコースの勝率が16％・負け数が19敗となっている。単純計算で-190はある。また別のコースでもしゃぶれていない事が多く、見かけの勝率良いものの、結果的にレートを著しく減らしてしまっている。",
     "matches": [
       { "id": "ALL", "result": "152", "opponent": "22.4%", "winopponent": "34", "loseopponent": "110(31)", "drawopponent": "8"},
       { "id": "バトコ", "result": "16", "opponent": "12.5%", "winopponent": "2", "loseopponent": "14(9)", "drawopponent": "0"},
