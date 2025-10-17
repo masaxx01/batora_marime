@@ -11,6 +11,7 @@
     "draw": 0,
     "shiai": 3,
     "matches": [
+      { "id": "ALL", "result": "3", "opponent": "0.0%", "winopponent": "0", "loseopponent": "3", "drawopponent": "0"},
       { "id": "バトコ", "result": "勝ち", "opponent": "PlayerA" },
       { "id": "初代", "result": "負け", "opponent": "PlayerB" },
       { "id": "３", "result": "勝ち", "opponent": "PlayerC" },
