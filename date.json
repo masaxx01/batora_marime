@@ -36,7 +36,7 @@
       { "id": "バトコ", "result": "4", "opponent": "0.0%", "winopponent": "0", "loseopponent": "4", "drawopponent": "0"},
       { "id": "初代", "result": "6", "opponent": "16.7%", "winopponent": "1", "loseopponent": "4", "drawopponent": "1"},
       { "id": "３", "result": "1", "opponent": "0.0%", "winopponent": "0", "loseopponent": "1", "drawopponent": "0"},
-      { "id": "WORLD", "result": "8", "opponent": "22.2%", "winopponent": "2", "loseopponent": "5", "drawopponent": "1"},
+      { "id": "WORLD", "result": "8", "opponent": "25.0%", "winopponent": "2", "loseopponent": "5", "drawopponent": "1"},
       { "id": "U", "result": "12", "opponent": "25.0%", "winopponent": "3", "loseopponent": "9", "drawopponent": "0"},
       { "id": "3DW", "result": "6", "opponent": "0.0%", "winopponent": "0", "loseopponent": "5", "drawopponent": "1"}
     ]
