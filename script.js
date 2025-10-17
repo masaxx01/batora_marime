@@ -61,7 +61,7 @@ fetch('date.json')
 detailsRow.classList.add('details-row');
 
 const detailsCell = document.createElement('td');
-detailsCell.colSpan = 9;
+detailsCell.colSpan = 11;
 
 // サブテーブルのHTMLを生成
 let matchTableHTML = `
@@ -98,10 +98,7 @@ matchTableHTML += `
 `;
 
 detailsCell.innerHTML = `
-  <strong>詳細情報:</strong><br>
-  開始レートと終了レートの差: ${entry.endRate - entry.startRate}<br>
-  合計試合数: ${entry.win + entry.lose + entry.draw}<br><br>
-  ${matchTableHTML}
+  <strong>詳細情報</strong><br>
 `;
 
 detailsRow.appendChild(detailsCell);
