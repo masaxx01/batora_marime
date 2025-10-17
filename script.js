@@ -97,6 +97,14 @@ matchTableHTML += `
   </table>
 `;
 
+// 備考欄を追加
+const noteHTML = `
+  <div class="note-box">
+    <strong>備考:</strong><br>
+    ${entry.note || '（備考なし）'}
+  </div>
+`;
+
 detailsCell.innerHTML = `
   <strong>詳細情報</strong><br>
   ${matchTableHTML}
