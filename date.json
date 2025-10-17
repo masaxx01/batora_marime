@@ -271,5 +271,26 @@
       { "id": "U", "result": "0", "opponent": "0.0%", "winopponent": "0", "loseopponent": "0", "drawopponent": "0"},
       { "id": "3DW", "result": "0", "opponent": "0.0%", "winopponent": "0", "loseopponent": "0", "drawopponent": "0"}
     ]
+  },
+  {
+    "date": "2025-10-16",
+    "startTime": "18:42",
+    "startRate": "4843",
+    "endRate": "4766",
+    "riseRate": "-77",
+    "winRate": "22.4%",
+    "win": 34,
+    "lose": 110,
+    "draw": 8,
+    "shiai": 152,
+    "matches": [
+      { "id": "ALL", "result": "152", "opponent": "22.4%", "winopponent": "34", "loseopponent": "110", "drawopponent": "8"},
+      { "id": "バトコ", "result": "16", "opponent": "12.5%", "winopponent": "2", "loseopponent": "14", "drawopponent": "0"},
+      { "id": "初代", "result": "17", "opponent": "17.6%", "winopponent": "3", "loseopponent": "13", "drawopponent": "1"},
+      { "id": "３", "result": "10", "opponent": "30.0%", "winopponent": "3", "loseopponent": "7", "drawopponent": "0"},
+      { "id": "WORLD", "result": "25", "opponent": "16.0%", "winopponent": "4", "loseopponent": "19", "drawopponent": "2"},
+      { "id": "U", "result": "51", "opponent": "29.4%", "winopponent": "15", "loseopponent": "33", "drawopponent": "3"},
+      { "id": "3DW", "result": "33", "opponent": "21.2%", "winopponent": "7", "loseopponent": "24", "drawopponent": "2"}
+    ]
   }
 ]
