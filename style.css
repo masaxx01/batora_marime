@@ -97,3 +97,12 @@ th {
 .toggle-btn:hover {
   color: #e67300;
 }
+
+.note-box {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #fff8e0;
+  border-left: 4px solid #ffcc66;
+  font-size: 14px;
+  color: #444;
+}
