@@ -112,6 +112,7 @@ const noteHTML = `
 detailsCell.innerHTML = `
   <strong>詳細情報</strong><br>
   ${matchTableHTML}
+  ${noteHTML}
 `;
 
 detailsRow.appendChild(detailsCell);
