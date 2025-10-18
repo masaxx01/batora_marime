@@ -92,9 +92,13 @@ entry.matches.forEach(match => {
   `;
 });
 
+// 備考欄をテーブル内に追加（colSpanで全体に広げる）
 matchTableHTML += `
-    </tbody>
-  </table>
+    <tr class="note-row">
+      <td colspan="3"><strong>備考:</strong> ${entry.note || '（備考なし）'}</td>
+    </tr>
+  </tbody>
+</table>
 `;
 
 // 備考欄を追加
