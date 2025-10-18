@@ -289,22 +289,44 @@
     "date": "2025-10-16",
     "startTime": "18:42",
     "startRate": "4843",
-    "endRate": "4766",
-    "riseRate": "-77",
+    "endRate": "4783",
+    "riseRate": "-60",
     "winRate": "22.4%",
     "win": 34,
     "lose": 110,
     "draw": 8,
     "shiai": 152,
-    "note": "全体勝率22.4％と好成績だが、ゴールをしゃぶれない仕様になっているマリオWORLDコースの勝率が16％・負け数が19敗となっている。単純計算で-190はある。また別のコースでもしゃぶれていない事が多く、見かけの勝率良いものの、結果的にレートを著しく減らしてしまっている。",
+    "note": "全体勝率22.4％と好成績だが、負け試合のほとんどでゴールをしゃぶれていなかったのが、レート減少の要因と考えられる。バトコ・マリオWORLDの勝率が低いのも目立つ。",
     "matches": [
-      { "id": "ALL", "result": "152", "opponent": "22.4%", "winopponent": "34", "loseopponent": "110(31)", "drawopponent": "8"},
-      { "id": "バトコ", "result": "16", "opponent": "12.5%", "winopponent": "2", "loseopponent": "14(9)", "drawopponent": "0"},
-      { "id": "初代", "result": "17", "opponent": "17.6%", "winopponent": "3", "loseopponent": "13(3)", "drawopponent": "1"},
+      { "id": "ALL", "result": "152", "opponent": "22.4%", "winopponent": "34", "loseopponent": "110", "drawopponent": "8"},
+      { "id": "バトコ", "result": "16", "opponent": "12.5%", "winopponent": "2", "loseopponent": "14", "drawopponent": "0"},
+      { "id": "初代", "result": "17", "opponent": "17.6%", "winopponent": "3", "loseopponent": "13", "drawopponent": "1"},
       { "id": "３", "result": "10", "opponent": "30.0%", "winopponent": "3", "loseopponent": "7", "drawopponent": "0"},
       { "id": "WORLD", "result": "25", "opponent": "16.0%", "winopponent": "4", "loseopponent": "19", "drawopponent": "2"},
-      { "id": "U", "result": "51", "opponent": "29.4%", "winopponent": "15", "loseopponent": "33(10)", "drawopponent": "3"},
-      { "id": "3DW", "result": "33", "opponent": "21.2%", "winopponent": "7", "loseopponent": "24(9)", "drawopponent": "2"}
+      { "id": "U", "result": "51", "opponent": "29.4%", "winopponent": "15", "loseopponent": "33", "drawopponent": "3"},
+      { "id": "3DW", "result": "33", "opponent": "21.2%", "winopponent": "7", "loseopponent": "24", "drawopponent": "2"}
+    ]
+  },
+   {
+    "date": "2025-10-18",
+    "startTime": "16:27",
+    "startRate": "4783",
+    "endRate": "4906",
+    "riseRate": "+123",
+    "winRate": "26.8%",
+    "win": 34,
+    "lose": 92,
+    "draw": 1,
+    "shiai": 127,
+    "note": "前半の３時間はどのコースも調子がよく、５連勝も達成した。勢いに乗り4995に到達するも、その後停滞。後一歩が及ばず悔しい結果に。",
+    "matches": [
+      { "id": "ALL", "result": "127", "opponent": "26.8%", "winopponent": "34", "loseopponent": "92", "drawopponent": "1"},
+      { "id": "バトコ", "result": "12", "opponent": "25.0%", "winopponent": "3", "loseopponent": "9", "drawopponent": "0"},
+      { "id": "初代", "result": "23", "opponent": "26.1%", "winopponent": "6", "loseopponent": "17", "drawopponent": "0"},
+      { "id": "３", "result": "7", "opponent": "28.6%", "winopponent": "2", "loseopponent": "5", "drawopponent": "0"},
+      { "id": "WORLD", "result": "18", "opponent": "33.3%", "winopponent": "6", "loseopponent": "12", "drawopponent": "0"},
+      { "id": "U", "result": "33", "opponent": "24.2%", "winopponent": "8", "loseopponent": "24", "drawopponent": "1"},
+      { "id": "3DW", "result": "34", "opponent": "26.5%", "winopponent": "9", "loseopponent": "25", "drawopponent": "0"}
     ]
   }
 ]
